@@ -1,5 +1,5 @@
 import './Root.css'
-import ContactList from '../components/Sidebar'
+import ContactList from '../components/ContactList'
 import { Outlet } from 'react-router-dom'
 
 export default function Root() {

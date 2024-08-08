@@ -1,24 +1,13 @@
-.sidebar {
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: var(--sidebar-width);
-    height: 100vh;
-    border-radius: 0 16px 16px 0;
-    background-color: white;
-    padding: 8px;
-}
-
-.sidebar-header {
+.contact-list-header {
     padding: 16px;
     padding-top: 40px;
 }
 
-.sidebar-header h1 {
+.contact-list-header h1 {
     margin-bottom: 0;
 }
 
-.sidebar-contact {
+.contact-list-contact {
     display: block;
     color: inherit;
     text-decoration: none;
@@ -26,10 +15,10 @@
     padding: 16px;
 }
 
-.sidebar-contact:visited {
+.contact-list-contact:visited {
     color: inherit;
 }
 
-.sidebar-contact:hover {
+.contact-list-contact:hover {
     background-color: lightgrey;
 }

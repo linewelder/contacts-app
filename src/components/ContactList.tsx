@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Contact from "../models/Contact";
 import { fetchContacts } from "../data/contacts";
 import './ContactList.css';
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export default function ContactList() {
     const [contacts, setContacts] = useState<Contact[] | null>(null);
@@ -17,9 +17,9 @@ export default function ContactList() {
                 <h1>Contacts:</h1>
             </div>
             {contacts?.map(contact =>
-                <Link className="contact-list-contact" to={`/contacts/${contact.id}`}>
+                <NavLink className="contact-list-contact" to={`/contacts/${contact.id}`}>
                     <h3>{contact.firstName} {contact.lastName}</h3>
-                </Link>
+                </NavLink>
             ) ?? <div className="contact-list-contact"><h3>Loading...</h3></div>}
         </div>
     );

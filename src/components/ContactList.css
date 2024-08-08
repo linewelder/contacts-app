@@ -19,6 +19,6 @@
     color: inherit;
 }
 
-.contact-list-contact:hover {
+.contact-list-contact:hover, .contact-list-contact.active {
     background-color: lightgrey;
 }

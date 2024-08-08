@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: sans-serif;
+}
+
+body {
+    padding: 0;
+    background-color: #ddd;
+}
+
+h1 {
+    margin-bottom: 1rem;
+    font-weight: lighter;
+    font-size: 32pt;
+}
+
+p {
+    margin-bottom: 0.5rem;
+}

@@ -1,0 +1,8 @@
+.layout {
+    --sidebar-width: 300px;
+    margin-left: 300px;
+}
+
+.content {
+    padding: 48px;
+}

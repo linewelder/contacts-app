@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Contact from "../models/Contact";
 import { fetchContacts } from "../data/contacts";
-import './Sidebar.css';
+import './ContactList.css';
 import { Link } from "react-router-dom";
 
 export default function ContactList() {
